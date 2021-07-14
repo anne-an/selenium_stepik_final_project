@@ -22,3 +22,4 @@ class ProductPageLocators:
     PRODUCT_PRICE = (By.CLASS_NAME, "price_color")
     ADDED_PRODUCT_TITLE = (By.CSS_SELECTOR, ".alertinner strong")
     ADDED_PRODUCT_PRICE = (By.CSS_SELECTOR, ".alertinner p strong")
+    SUCCESS_MESSAGE = (By.CLASS_NAME, "alertinner")
